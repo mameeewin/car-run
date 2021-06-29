@@ -1,0 +1,28 @@
+{
+    "name": "Car RUN",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "arcade-minimap": "github:microsoft/arcade-minimap#v0.6.1",
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.1"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "1.4.45",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
